@@ -5,18 +5,23 @@
     --blue-blue-100: #96B9FD;
     --shadow: #666666;
 
-    /*--ff: 'Inter', sans-serif;
+    --ff: 'Inter', sans-serif;
 
     /*--fw-1: 400;
     --fw-2: 700;
 
-    --fs-1: 21px;
+    --fs-1: 21px;*/
     --fs-2: 16px;
-    --fs-3: 12px;
+    /*--fs-3: 12px;
     
     --lh-1: 32px;
     --lh-2: 24px;
     --lh-3: 18px;*/
+}
+
+html {
+    font-family: var(--ff);
+    font-size: var(--fs-2);
 }
 
 body {
