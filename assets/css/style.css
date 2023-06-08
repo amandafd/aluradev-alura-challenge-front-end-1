@@ -3,6 +3,7 @@
     --blue-blue-300: #5081FB;
     --blue-blue-200: #7BA4FC;
     --blue-blue-100: #96B9FD;
+    --shadow: #666666;
 
     /*--ff: 'Inter', sans-serif;
 
@@ -16,4 +17,8 @@
     --lh-1: 32px;
     --lh-2: 24px;
     --lh-3: 18px;*/
+}
+
+body {
+    background-color: var(--blue-dark-blue);
 }
