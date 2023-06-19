@@ -14,11 +14,84 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-
+        <header class="header">
+            <div class="logo">
+                <img src="./assets/images/logo-aluradev.png" alt="AluraDev's logo">
+            </div>
+            <div class="search">
+                <img src="./assets/images/search-icon.png" alt="Search icon">
+                <input type="search" name="search-bar" placeholder="Busque por algo">
+            </div>
+            <div class="user header__user">
+                
+            </div>
+            <div class="burger-menu">
+                <span class="burger-menu__bar"></span>
+                <span class="burger-menu__bar"></span>
+                <span class="burger-menu__bar"></span>
+            </div>
         </header>
         <main>
+            <nav class="menu">
+                <ul>MENU
+                    <li><a href="#">Editor de código</a></li>
+                    <li><a href="#">Comunidade</a></li>
+                </ul>
+                <div>Harry</div>
+            </nav>
+            <div class="project-1">
+                <div>
+                    const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
 
+                    const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+                    const unfold = (f, seed) => {
+                        const go = (f, seed, acc) => {
+                            const res = f(seed)
+                            return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                        }
+                        return go(f, seed, [])
+                    }
+                </div>
+                <h2>Título do projeto</h2>
+                <p>Essa é a descrição do meu projeto.</p>
+                <div>
+                    <div>
+                        <div>9</div>
+                        <div>9</div>
+                    </div>
+                    <div><p>@Harry</p></div>
+                </div>
+            </div>
+            <div class="project-2">
+                <div>
+                    const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+                    const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+                    const unfold = (f, seed) => {
+                        const go = (f, seed, acc) => {
+                            const res = f(seed)
+                            return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                        }
+                        return go(f, seed, [])
+                    }
+                </div>
+                <h2>Título do projeto</h2>
+                <p>Essa é a descrição do meu projeto.</p>
+                <div>
+                    <div>
+                        <div>9</div>
+                        <div>9</div>
+                    </div>
+                    <div><p>@Harry</p></div>
+                </div>
+            </div>
         </main>
     </body>
 </html>
+
+<!--TODO:
+    Adicionar outras propriedades dos inputs
+    Verificar se as tags estão corretas
+    Adicionar icones-->

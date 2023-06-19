@@ -20,7 +20,7 @@
             </div>
             <div class="search">
                 <img src="./assets/images/search-icon.png" alt="Search icon">
-                <!--<input type="search" placeholder="Busque por algo">-->
+                <input type="search" name="search-bar" placeholder="Busque por algo">
             </div>
             <div class="user header__user">
                 
@@ -32,10 +32,37 @@
             </div>
         </header>
         <main>
-            <nav class="menu"></nav>
-            <div class="code-editor"></div>
-            <div class="your-project"></div>
-            <div class="personalization"></div>
+            <nav class="menu">
+                <ul>MENU
+                    <li><a href="#">Editor de código</a></li>
+                    <li><a href="#">Comunidade</a></li>
+                </ul>
+                <div>Harry</div>
+            </nav>
+            <form>
+                <div>
+                    <input type="text" name="code">
+                    <button>Visualizar com o highlight</button>
+                </div>
+                <div>
+                    SEU PROJETO
+                    <input type="text" name="project-name" placeholder="Nome do seu projeto">
+                    <input type="text" name="project-description" placeholder="Descrição do seu projeto">
+                </div>
+                <div>
+                    PERSONALIZAÇÃO
+                    <select>
+                        <option>JavaScript</option>
+                    </select>
+                    <input type="color" name="project-color">
+                </div>
+                <button>Salvar projeto</button>
+            </form>
         </main>
     </body>
 </html>
+
+<!--TODO:
+    Adicionar outras propriedades dos inputs
+    Verificar se as tags estão corretas
+    Adicionar icones-->
