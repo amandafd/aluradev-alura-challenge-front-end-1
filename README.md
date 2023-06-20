@@ -19,8 +19,16 @@
   </li>  
   <li><a href="#o-processo">O Processo</a>
     <ul>
-      <li><a href="#etapas">Etapas</a></li>
-      <li><a href="#licoes-aprendidas">Lições Aprendidas</a></li>
+      <li><a href="#etapas">Etapas</a>
+        <ul>
+          <li>Planejamento incial;</li>
+          <li>Estruturação das tags e conteúdos das páginas em HTML;</li>
+        </ul>
+      </li>
+      <li><a href="#licoes-aprendidas">Lições Aprendidas</a>
+        <ul>
+        </ul>
+      </li>
     </ul>
   </li>  
   <li><a href="#autora">Autora</li>
