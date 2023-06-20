@@ -1,0 +1,11 @@
+@import './variables';
+
+html {
+    font-family: var(--ff);
+    font-size: var(--fs-2);
+    padding: 2rem;
+}
+
+body {
+    background-color: var(--blue-dark-blue);
+}
