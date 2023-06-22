@@ -53,11 +53,25 @@ table {
 }
 
 html {
-  font-family: var(--ff);
-  font-size: var(--fs-2);
-  padding: 2rem;
+  padding: 1rem;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
 }
 
 body {
-  background-color: var(--blue-dark-blue);
+  background-color: #051D3B;
+}
+
+header {
+  display: flex;
+  padding: 0.7rem 0;
+}
+header .search input {
+  display: none;
+}
+header .user {
+  display: none;
+}
+header .fa-solid {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

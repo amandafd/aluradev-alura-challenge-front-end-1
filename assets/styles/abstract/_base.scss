@@ -1,11 +1,11 @@
 @import './variables';
 
 html {
-    font-family: var(--ff);
-    font-size: var(--fs-2);
-    padding: 2rem;
+    padding: 1rem;
+    font-family: $ff;
+    font-size: 16px;
 }
 
 body {
-    background-color: var(--blue-dark-blue);
+    background-color: $blue-dark-blue;
 }

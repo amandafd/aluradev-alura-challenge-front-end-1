@@ -3,5 +3,23 @@ $blue-300: #5081FB;
 $blue-200: #7BA4FC;
 $blue-100: #96B9FD;
 $shadow: #666666;
+$lighter: #fff;
 
 $ff: 'Inter', sans-serif;
+
+@mixin font-type($fs, $lh) {
+    font-size: $fs;
+    line-height: $lh;
+}
+
+@mixin title {
+    @include font-type(1.3rem, 2rem)
+}
+
+@mixin body {
+    @include font-type(1rem, 1.5rem)
+}
+
+@mixin sidebar-title {
+    @include font-type(.75rem, 1.125rem)
+}

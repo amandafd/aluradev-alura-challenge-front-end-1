@@ -1,0 +1,20 @@
+@import '../abstract/variables';
+
+header {
+    display: flex;
+    padding: .7rem 0;
+
+    .search {
+        input {
+            display: none; //TEMPORARIAMENTE
+        }
+    }
+
+    .user {
+        display: none; //TEMPORARIAMENTE
+    }
+
+    .fa-solid {
+        color: $lighter;
+    }
+}
