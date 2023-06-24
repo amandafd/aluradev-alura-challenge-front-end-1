@@ -9,3 +9,10 @@ html {
 body {
     background-color: $blue-dark-blue;
 }
+
+input, select {
+    background: rgba(255, 255, 255, 0.16);
+    padding: 0.875rem;
+    border: none;
+    border-radius: .5rem;
+}

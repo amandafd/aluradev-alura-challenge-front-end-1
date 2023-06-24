@@ -62,16 +62,52 @@ body {
   background-color: #051D3B;
 }
 
+input, select {
+  background: rgba(255, 255, 255, 0.16);
+  padding: 0.875rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
 header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 0.7rem 0;
 }
-header .search input {
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .header-elements {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+header .header-elements .search input {
   display: none;
 }
-header .user {
+header .header-elements .user {
   display: none;
 }
-header .fa-solid {
+header .header-elements .fa-solid {
   color: #fff;
+}
+@media (min-width: 380px) {
+  header .header-elements {
+    display: grid;
+    grid-template-columns: 83% 4.5%;
+    justify-content: space-between;
+  }
+  header .header-elements .search {
+    display: flex;
+  }
+  header .header-elements .search i {
+    display: none;
+  }
+  header .header-elements .search input {
+    display: flex;
+    flex-grow: 1;
+    height: 3.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */

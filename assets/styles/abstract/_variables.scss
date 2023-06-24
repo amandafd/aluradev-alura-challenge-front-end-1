@@ -8,6 +8,7 @@ $lighter: #fff;
 $ff: 'Inter', sans-serif;
 
 @mixin font-type($fs, $lh) {
+    color: $lighter;
     font-size: $fs;
     line-height: $lh;
 }

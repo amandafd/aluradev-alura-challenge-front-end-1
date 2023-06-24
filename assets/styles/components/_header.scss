@@ -2,19 +2,58 @@
 
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: .7rem 0;
 
-    .search {
-        input {
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-elements {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        
+        .search {
+            input {
+                display: none; //TEMPORARIAMENTE
+            }
+        }
+    
+        .user {
             display: none; //TEMPORARIAMENTE
+        }
+    
+        .fa-solid {
+            color: $lighter;
         }
     }
 
-    .user {
-        display: none; //TEMPORARIAMENTE
-    }
+    @media (min-width: 380px){
 
-    .fa-solid {
-        color: $lighter;
+
+
+        .header-elements {
+            display: grid;
+            grid-template-columns: 83% 4.5%;
+            justify-content: space-between;
+
+            .search {
+                display: flex;
+
+                i {
+                    display: none;
+                }
+
+                input {
+                    display: flex;
+                    flex-grow: 1;
+                    height: 3.5rem;
+                }  
+            }
+        }
+        
     }
 }
