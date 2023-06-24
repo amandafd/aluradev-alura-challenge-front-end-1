@@ -32,6 +32,7 @@ header {
     }
 
     @media (min-width: 460px){
+        padding: 0 0;
         gap: 2.5rem;
         
         .header-elements {
@@ -55,5 +56,17 @@ header {
             }
         }
         
+    }
+
+    @media (min-width: 780px) {
+        .header-elements {
+            .burger-menu {
+                display: none;
+            }
+
+            .user-header {
+                display: flex;
+            }
+        }
     }
 }
