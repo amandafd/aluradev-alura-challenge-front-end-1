@@ -28,8 +28,8 @@
       </li>
       <li><a href="#licoes-aprendidas">Lições Aprendidas</a>
         <ul>
-          <li>Desenvolvimento Front-end;</li>
-          <li>Reforço dos conceitos de SASS;</li>
+          <li>Desenvolvimento Front-end(HTML e CSS/SASS);</li>
+          <li>Reforço dos conceitos de componetização com SASS;</li>
         </ul>
       </li>
     </ul>
