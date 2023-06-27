@@ -42,7 +42,24 @@
             </nav>
             <form>
                 <div class="code-editor">
-                    <input type="text" name="code">
+                    <div class="code-area">
+                        <div class="circles">
+                            <div class="red-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="green-circle"></div>
+                        </div>
+                        <code>const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+                            const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                            
+                            const unfold = (f, seed) => {
+                              const go = (f, seed, acc) => {
+                                const res = f(seed)
+                                return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                              }
+                              return go(f, seed, [])
+                            }</code>
+                    </div>
                     <button>Visualizar com o highlight</button>
                 </div>
                 <div>

@@ -1,0 +1,36 @@
+@import '../abstract/variables';
+
+.code-area {
+    display: flex;
+    flex-direction: column;
+    background-color: $dark-gray;
+    color: $lighter;
+    padding: 1rem;
+    border: 1rem solid $blue-400;
+    border-radius: 0.5rem;
+    font-size: .875rem;
+    box-shadow: 0px 16px 24px 0px rgba(0, 0, 0, 0.24);
+
+    .circles {
+        display: flex;
+        justify-content: space-between;
+        width: 3.25rem;
+        
+        .red-circle {
+            @include circle($red);
+        }
+
+        .yellow-circle {
+            @include circle($yellow);
+        }
+
+        .green-circle {
+            @include circle($green);
+        }
+    }
+
+    code {
+        color: $lighter;
+        font-size: 0.875rem;
+    }
+}

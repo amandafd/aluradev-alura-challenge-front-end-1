@@ -3,6 +3,10 @@ $blue-400: #6BD1FF;
 $blue-300: #5081FB;
 $blue-200: #7BA4FC;
 $blue-100: #96B9FD;
+$green: #27C93F;
+$red: #FF5F56;
+$yellow: #FFBD2E;
+$dark-gray: #141414;
 $shadow: #666666;
 $lighter: #fff;
 
@@ -24,4 +28,11 @@ $ff: 'Inter', sans-serif;
 
 @mixin sidebar-title {
     @include font-type(.75rem, 1.125rem)
+}
+
+@mixin circle($color) {
+    background-color: $color;
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 50%;
 }
