@@ -184,5 +184,7 @@ header .header-elements .fa-solid {
 }
 .code-area code {
   color: #fff;
+  font-family: "Roboto Mono", monospace;
   font-size: 0.875rem;
+  line-height: 1.15rem;
 }/*# sourceMappingURL=style.css.map */

@@ -13,6 +13,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">    
     </head>
     <body>
         <header class="header">
@@ -48,17 +52,17 @@
                             <div class="yellow-circle"></div>
                             <div class="green-circle"></div>
                         </div>
-                        <code>const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+                        <code contenteditable="true">const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)<br><br>
 
-                            const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                        const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)<br><br>
                             
-                            const unfold = (f, seed) => {
-                              const go = (f, seed, acc) => {
-                                const res = f(seed)
-                                return res ? go(f, res[1], acc.concat([res[0]])) : acc
-                              }
-                              return go(f, seed, [])
-                            }</code>
+                        const unfold = (f, seed) => {<br>
+                        &nbsp const go = (f, seed, acc) => {<br>
+                        &nbsp &nbsp const res = f(seed)<br>
+                        &nbsp &nbsp return res ? go(f, res[1], acc.concat([res[0]])) : acc<br>
+                        &nbsp }<br>
+                        &nbsp return go(f, seed, [])<br>
+                        }</code>
                     </div>
                     <button>Visualizar com o highlight</button>
                 </div>
