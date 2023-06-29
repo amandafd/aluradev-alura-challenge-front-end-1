@@ -18,16 +18,17 @@ $ff: 'Inter', sans-serif;
     line-height: $lh;
 }
 
-@mixin title {
+%title {
     @include font-type(1.3rem, 2rem)
 }
 
-@mixin body {
+%body {
     @include font-type(1rem, 1.5rem)
 }
 
-@mixin sidebar-title {
-    @include font-type(.75rem, 1.125rem)
+%sidebar-title {
+    @include font-type(.75rem, 1.125rem);
+    letter-spacing: .30rem;
 }
 
 @mixin circle($color) {

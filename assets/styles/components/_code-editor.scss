@@ -10,7 +10,7 @@
     }
 
     button {
-        @include body;
+        @extend %body;
         background-color: rgba(80, 129, 251, 0.08);
         padding: 1rem;
         border: none;
