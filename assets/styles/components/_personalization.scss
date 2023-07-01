@@ -1,13 +1,9 @@
 @import '../abstract/variables';
 
-.your-project {
+.personalization {
     @include flex-column-gap(1rem);
 
     h4 {
         @extend %sidebar-title;
-    }
-
-    input:last-child {
-        height: 5rem;
     }
 }

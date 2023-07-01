@@ -1,9 +1,7 @@
 @import '../abstract/variables';
 
 .code-editor {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    @include flex-column-gap(2rem);
 
     .code-area {
         gap: 1.5rem;

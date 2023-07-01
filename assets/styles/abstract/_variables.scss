@@ -37,3 +37,9 @@ $ff: 'Inter', sans-serif;
     width: 0.75rem;
     border-radius: 50%;
 }
+
+@mixin flex-column-gap($gap) {
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+}
