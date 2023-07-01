@@ -23,13 +23,13 @@
         <ul>
           <li>Planejamento incial;</li>
           <li>Estruturação das tags e conteúdos das páginas em HTML;</li>
-          <li>Elaboração da estilização do conteúdo utiizando SASS;</li>
+          <li>Elaboração da estilização do conteúdo utiizando SASS por componentes de maneira responsiva;</li>
         </ul>
       </li>
       <li><a href="#licoes-aprendidas">Lições Aprendidas</a>
         <ul>
           <li>Desenvolvimento Front-end(HTML e CSS/SASS);</li>
-          <li>Reforço dos conceitos de componetização com SASS;</li>
+          <li>Reforço dos conceitos de componetização com SASS, incorporando o uso do extend além de mixin;</li>
         </ul>
       </li>
     </ul>
