@@ -1,0 +1,13 @@
+@import '../abstract/variables';
+
+.btn-save {
+    color: $blue-dark-blue;
+    background-color: $blue-300;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
