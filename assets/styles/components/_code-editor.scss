@@ -9,10 +9,9 @@
 
     button {
         @extend %body;
+        @include border-bradius(none);
         background-color: rgba(80, 129, 251, 0.08);
         padding: 1rem;
-        border: none;
-        border-radius: 8px;
     }
     
 }

@@ -43,3 +43,13 @@ $ff: 'Inter', sans-serif;
     flex-direction: column;
     gap: $gap;
 }
+
+%flex-acenter {
+    display: flex;
+    align-items: center;
+}
+
+@mixin border-bradius($b) {
+    border: $b;
+    border-radius: .5rem;
+}

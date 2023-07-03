@@ -1,19 +1,16 @@
 @import '../abstract/variables';
 
 header {
-    display: flex;
-    align-items: center;
+    @extend %flex-acenter;
     justify-content: space-between;
     padding: .7rem 0;
 
     .logo {
-        display: flex;
-        align-items: center;
+        @extend %flex-acenter;
     }
 
     .header-elements {
-        display: flex;
-        align-items: center;
+        @extend %flex-acenter;
         gap: 2rem;
         
         .search {

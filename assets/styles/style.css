@@ -65,6 +65,11 @@ table {
   letter-spacing: 0.3rem;
 }
 
+header .header-elements, header .logo, header {
+  display: flex;
+  align-items: center;
+}
+
 html {
   padding: 1rem;
   font-family: "Inter", sans-serif;
@@ -100,19 +105,16 @@ input, select {
   letter-spacing: 0.3rem;
 }
 
-header {
+header .header-elements, header .logo, header {
   display: flex;
   align-items: center;
+}
+
+header {
   justify-content: space-between;
   padding: 0.7rem 0;
 }
-header .logo {
-  display: flex;
-  align-items: center;
-}
 header .header-elements {
-  display: flex;
-  align-items: center;
   gap: 2rem;
 }
 header .header-elements .search input {
@@ -169,6 +171,11 @@ header .header-elements .fa-solid {
   letter-spacing: 0.3rem;
 }
 
+header, header .logo, header .header-elements {
+  display: flex;
+  align-items: center;
+}
+
 .code-editor {
   display: flex;
   flex-direction: column;
@@ -178,10 +185,10 @@ header .header-elements .fa-solid {
   gap: 1.5rem;
 }
 .code-editor button {
+  border: none;
+  border-radius: 0.5rem;
   background-color: rgba(80, 129, 251, 0.08);
   padding: 1rem;
-  border: none;
-  border-radius: 8px;
 }
 
 .code-editor button {
@@ -197,14 +204,19 @@ header .header-elements .fa-solid {
   letter-spacing: 0.3rem;
 }
 
+header, header .logo, header .header-elements {
+  display: flex;
+  align-items: center;
+}
+
 .code-area {
+  border: 2rem solid #6BD1FF;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   background-color: #141414;
   color: #fff;
   padding: 1rem;
-  border: 2rem solid #6BD1FF;
-  border-radius: 0.5rem;
   font-size: 0.875rem;
 }
 .code-area .circles {
@@ -250,6 +262,11 @@ header .header-elements .fa-solid {
   letter-spacing: 0.3rem;
 }
 
+header, header .logo, header .header-elements {
+  display: flex;
+  align-items: center;
+}
+
 .your-project {
   display: flex;
   flex-direction: column;
@@ -271,6 +288,11 @@ header .header-elements .fa-solid {
   font-size: 0.75rem;
   line-height: 1.125rem;
   letter-spacing: 0.3rem;
+}
+
+header, header .logo, header .header-elements {
+  display: flex;
+  align-items: center;
 }
 
 .personalization {
@@ -300,14 +322,19 @@ header .header-elements .fa-solid {
   letter-spacing: 0.3rem;
 }
 
+header, header .logo, header .header-elements {
+  display: flex;
+  align-items: center;
+}
+
 .btn-save {
+  border: none;
+  border-radius: 0.5rem;
   color: #051D3B;
   background-color: #5081FB;
   width: 100%;
   padding: 1rem;
   margin-top: 2rem;
-  border: none;
-  border-radius: 0.5rem;
   font-size: 1rem;
   line-height: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
