@@ -301,12 +301,23 @@ header, header .logo, header .header-elements {
   gap: 1rem;
   margin-top: 2.5rem;
 }
-.personalization input {
+.personalization div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.personalization div input {
   background-color: inherit;
   height: 3.5rem;
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #fff;
+}
+@media (min-width: 460px) {
+  .personalization div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
 
 .code-editor button {
