@@ -92,6 +92,18 @@ input, select {
   border-radius: 0.5rem;
 }
 
+input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6392156863);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+input::placeholder, select {
+  color: rgba(255, 255, 255, 0.6392156863);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .code-editor button {
   color: #fff;
   font-size: 1rem;

@@ -20,3 +20,9 @@ input, select {
     border: none;
     border-radius: .5rem;
 }
+
+input::placeholder, select {
+    color: #ffffffa3;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
