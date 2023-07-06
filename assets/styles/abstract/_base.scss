@@ -12,6 +12,11 @@ html {
 
 body {
     background-color: $blue-dark-blue;
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 input, select {

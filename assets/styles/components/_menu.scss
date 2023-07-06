@@ -1,0 +1,14 @@
+@import '../abstract/variables';
+
+.menu {
+    background-color: $blue-gray;
+    align-self: flex-end;
+    width: 15.875rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+
+    h4 {
+        @extend %sidebar-title;
+        display: none;
+    }
+}
