@@ -11,4 +11,17 @@
         @extend %sidebar-title;
         display: none;
     }
+
+    ul {
+        li {
+            a { 
+                color: $lighter;
+                text-decoration: none;
+                i {
+                    padding: .75rem;
+                } 
+            }
+        }
+        
+    }
 }
