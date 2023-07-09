@@ -17,10 +17,19 @@
             a { 
                 color: $lighter;
                 text-decoration: none;
+
                 i {
                     padding: .75rem;
+                    border-radius: .5rem;
                 } 
             }
+        }
+        
+    }
+
+    .menu-editor {
+        i {
+            background-color: $blue-300;
         }
         
     }

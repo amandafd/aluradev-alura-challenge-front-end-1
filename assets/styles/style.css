@@ -208,6 +208,10 @@ header, header .logo, header .header-elements {
 }
 .menu ul li a i {
   padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+.menu .menu-editor i {
+  background-color: #5081FB;
 }
 
 .code-editor button {
