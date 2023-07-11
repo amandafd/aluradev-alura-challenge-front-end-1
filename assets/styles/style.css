@@ -228,6 +228,9 @@ header, header .logo, header .header-elements {
 .menu .menu-community h5 {
   opacity: 0.5;
 }
+.menu hr {
+  opacity: 0.08;
+}
 
 .code-editor button {
   color: #fff;
