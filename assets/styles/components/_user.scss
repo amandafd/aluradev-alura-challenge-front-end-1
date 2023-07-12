@@ -1,0 +1,11 @@
+@import '../abstract/variables';
+
+.user {
+    img {
+        border-radius: 50%;
+    }
+
+    h5 {
+        @extend %body;
+    }
+}
