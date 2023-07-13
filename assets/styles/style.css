@@ -197,6 +197,7 @@ header, header .logo, header .header-elements {
   align-self: flex-end;
   width: 15.875rem;
   padding: 1.5rem;
+  margin-top: 1.5rem;
   border-radius: 0.5rem;
 }
 .menu h4 {
@@ -276,6 +277,7 @@ header, header .logo, header .header-elements {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-top: 3.125rem;
 }
 .code-editor .code-area {
   gap: 1.5rem;
