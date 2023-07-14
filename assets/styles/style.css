@@ -88,6 +88,12 @@ body main {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 780px) {
+  body main {
+    flex-direction: row;
+    padding-top: 2.5rem;
+  }
+}
 
 input, select {
   background: rgba(255, 255, 255, 0.16);
@@ -233,6 +239,17 @@ header, header .logo, header .header-elements {
   margin-top: 1.5rem;
   opacity: 0.08;
 }
+@media (min-width: 780px) {
+  .menu {
+    background-color: inherit;
+    align-self: inherit;
+    padding: inherit;
+    margin-top: inherit;
+  }
+  .menu .user {
+    display: none;
+  }
+}
 
 .code-editor button, .user h5 {
   color: #fff;
@@ -287,6 +304,11 @@ header, header .logo, header .header-elements {
   border-radius: 0.5rem;
   background-color: rgba(80, 129, 251, 0.08);
   padding: 1rem;
+}
+@media (min-width: 780px) {
+  .code-editor {
+    margin-top: inherit;
+  }
 }
 
 .user h5, .code-editor button {

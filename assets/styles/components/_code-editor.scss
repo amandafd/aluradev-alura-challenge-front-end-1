@@ -15,4 +15,7 @@
         padding: 1rem;
     }
     
+    @media (min-width: 780px) {
+        margin-top: inherit;
+    }
 }

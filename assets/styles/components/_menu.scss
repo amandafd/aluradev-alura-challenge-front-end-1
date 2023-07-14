@@ -55,4 +55,15 @@
         margin-top: 1.5rem;
         opacity: 0.08;
     }
+
+    @media (min-width: 780px) {
+        background-color: inherit;
+        align-self: inherit;
+        padding: inherit;
+        margin-top: inherit;
+
+        .user {
+            display: none;
+        }
+    }
 }
