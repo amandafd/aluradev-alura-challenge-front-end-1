@@ -16,10 +16,10 @@ body {
     main {
         display: flex;
         flex-direction: column;
-        @media (min-width: 780px) {
+        @media (min-width: 900px) {
             flex-direction: row;
             padding-top: 2.5rem;
-            
+
             form {
                 display: flex;
             }
