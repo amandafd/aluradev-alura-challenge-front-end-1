@@ -19,7 +19,13 @@ body {
         @media (min-width: 780px) {
             flex-direction: row;
             padding-top: 2.5rem;
-        }
+            
+            form {
+                display: flex;
+            }
+        } 
+
+        
     }
 }
 

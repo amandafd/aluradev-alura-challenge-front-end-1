@@ -93,6 +93,9 @@ body main {
     flex-direction: row;
     padding-top: 2.5rem;
   }
+  body main form {
+    display: flex;
+  }
 }
 
 input, select {
