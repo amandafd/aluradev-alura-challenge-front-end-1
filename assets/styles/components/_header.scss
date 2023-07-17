@@ -1,7 +1,9 @@
 @import '../abstract/variables';
 
 header {
-    @extend %flex-acenter;
+
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: .7rem 0;
 
@@ -51,14 +53,14 @@ header {
                     height: 3.5rem;
                 }  
             }
-        }
-        
+        }  
     }
     
     @media (min-width: 900px) {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: 19% 81%;
+        gap: 2%;
+
         .header-elements {
             .burger-menu {
                 display: none;

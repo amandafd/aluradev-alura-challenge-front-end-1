@@ -65,7 +65,7 @@ table {
   letter-spacing: 0.3rem;
 }
 
-header .header-elements, header .logo, header {
+header .header-elements, header .logo {
   display: flex;
   align-items: center;
 }
@@ -91,8 +91,8 @@ body main {
 @media (min-width: 900px) {
   body main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 19% 52% 19%;
+    gap: 2%;
     padding-top: 2.5rem;
   }
 }
@@ -129,12 +129,14 @@ input::placeholder, select {
   letter-spacing: 0.3rem;
 }
 
-header .header-elements, header .logo, header {
+header .header-elements, header .logo {
   display: flex;
   align-items: center;
 }
 
 header {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 0.7rem 0;
 }
@@ -176,8 +178,8 @@ header .header-elements .fa-solid {
 @media (min-width: 900px) {
   header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 19% 81%;
+    gap: 2%;
   }
   header .header-elements .burger-menu {
     display: none;
@@ -200,7 +202,7 @@ header .header-elements .fa-solid {
   letter-spacing: 0.3rem;
 }
 
-header, header .logo, header .header-elements {
+header .logo, header .header-elements {
   display: flex;
   align-items: center;
 }
@@ -250,8 +252,10 @@ header, header .logo, header .header-elements {
   .menu {
     background-color: inherit;
     align-self: inherit;
+    width: inherit;
     padding: inherit;
     margin-top: inherit;
+    border-radius: inherit;
   }
   .menu .user {
     display: none;
@@ -271,7 +275,7 @@ header, header .logo, header .header-elements {
   letter-spacing: 0.3rem;
 }
 
-header, header .logo, header .header-elements {
+header .logo, header .header-elements {
   display: flex;
   align-items: center;
 }
@@ -292,7 +296,7 @@ header, header .logo, header .header-elements {
   letter-spacing: 0.3rem;
 }
 
-header, header .logo, header .header-elements {
+header .logo, header .header-elements {
   display: flex;
   align-items: center;
 }
@@ -331,7 +335,7 @@ header, header .logo, header .header-elements {
   letter-spacing: 0.3rem;
 }
 
-header, header .logo, header .header-elements {
+header .logo, header .header-elements {
   display: flex;
   align-items: center;
 }
@@ -389,7 +393,7 @@ header, header .logo, header .header-elements {
   letter-spacing: 0.3rem;
 }
 
-header, header .logo, header .header-elements {
+header .logo, header .header-elements {
   display: flex;
   align-items: center;
 }
@@ -417,7 +421,7 @@ header, header .logo, header .header-elements {
   letter-spacing: 0.3rem;
 }
 
-header, header .logo, header .header-elements {
+header .logo, header .header-elements {
   display: flex;
   align-items: center;
 }
@@ -460,7 +464,7 @@ header, header .logo, header .header-elements {
   letter-spacing: 0.3rem;
 }
 
-header, header .logo, header .header-elements {
+header .logo, header .header-elements {
   display: flex;
   align-items: center;
 }

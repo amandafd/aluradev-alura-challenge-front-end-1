@@ -59,8 +59,10 @@
     @media (min-width: 900px) {
         background-color: inherit;
         align-self: inherit;
+        width: inherit;
         padding: inherit;
         margin-top: inherit;
+        border-radius: inherit;
 
         .user {
             display: none;
