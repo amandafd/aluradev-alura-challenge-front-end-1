@@ -19,21 +19,8 @@
   </li>  
   <li><a href="#o-processo">O Processo</a>
     <ul>
-      <li><a href="#etapas">Etapas</a>
-        <ul>
-          <li>Planejamento incial;</li>
-          <li>Estruturação das tags e conteúdos das páginas em HTML;</li>
-          <li>Elaboração da estilização do conteúdo utiizando SASS por componentes de maneira responsiva;</li>
-        </ul>
-      </li>
-      <li><a href="#licoes-aprendidas">Lições Aprendidas</a>
-        <ul>
-          <li>Desenvolvimento Front-end(HTML e CSS/SASS);</li>
-          <li>Reforço dos conceitos de componetização com SASS, incorporando o uso do extend além de mixin;</li>
-        </ul>
-      </li>
-    </ul>
-  </li>  
+      <li><a href="#etapas">Etapas</a></li>
+      <li><a href="#licoes-aprendidas">Lições Aprendidas</a></li>  
   <li><a href="#autora">Autora</li>
 </ul>
 
@@ -45,15 +32,17 @@
 <h2 id="o-processo">O Processo</h2>
 
 <h3 id="etapas">Etapas</h3>
-<ul>As etapas de desenvolvimento da aplicação foram/serão:
-  <li>Semana 1: Desenvolvimento do layout em HTML e CSS;</li>
-  <li>Semana 2</li>
-  <li>Semanas 3 e 4</li>
-</ul>
+<ol>As etapas de desenvolvimento da aplicação foram/serão:
+  <li>Planejamento incial;</li>
+  <li>Estruturação das tags e conteúdos das páginas em HTML;</li>
+  <li>Elaboração da estilização do conteúdo utiizando SASS por componentes de maneira responsiva;</li>
+</ol>
 <p>Apesar de as etapas estarem descritas seguindo o fluxo planejado, alguns itens sofreram modificações e melhorias de maneira não linear ao longo do processo. Como a aplicação ainda está em desenvolvimento, as informações contidas nessas sessão serão constantemente atualizadas;</p>
 
 <h3 id="lessons-learned">Lições Aprendidas</h3>
 <ul>As lições aprendidas, assim como os conhecimentos reforçados, serão atualizadas no decorrer da solução:
+  <li>Desenvolvimento Front-end(HTML e CSS/SASS);</li>
+  <li>Reforço dos conceitos de componetização com SASS, incorporando o uso do extend além de mixin;</li>
   <li></li>
 </ul> 
 
