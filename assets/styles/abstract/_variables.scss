@@ -32,17 +32,17 @@ $ff: 'Inter', sans-serif;
     letter-spacing: .30rem;
 }
 
-@mixin circle($color) {
-    background-color: $color;
-    height: 0.75rem;
-    width: 0.75rem;
-    border-radius: 50%;
-}
 
 @mixin flex-column-gap($gap) {
     display: flex;
     flex-direction: column;
     gap: $gap;
+}
+
+@mixin grid-desktop($template-c) {
+    display: grid;
+    grid-template-columns: $template-c;
+    gap: 2%;
 }
 
 %flex-acenter {
@@ -53,4 +53,11 @@ $ff: 'Inter', sans-serif;
 @mixin border-bradius($b) {
     border: $b;
     border-radius: .5rem;
+}
+
+@mixin circle($color) {
+    background-color: $color;
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 50%;
 }

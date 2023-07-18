@@ -18,9 +18,7 @@ body {
         flex-direction: column;
 
         @media (min-width: 900px) {
-            display: grid;
-            grid-template-columns: 19% 52% 19%;
-            gap: 2%;
+            @include grid-desktop(19% 52% 19%);
             padding-top: 2.5rem;
         } 
 
