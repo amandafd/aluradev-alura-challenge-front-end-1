@@ -32,6 +32,11 @@ $ff: 'Inter', sans-serif;
     letter-spacing: .30rem;
 }
 
+@mixin size-w-h($w, $h) {
+    width: $w;
+    height: $h;
+}
+
 
 @mixin flex-column-gap($gap) {
     display: flex;
@@ -56,8 +61,7 @@ $ff: 'Inter', sans-serif;
 }
 
 @mixin circle($color) {
+    @include size-w-h(.75rem, .75rem);
     background-color: $color;
-    height: 0.75rem;
-    width: 0.75rem;
     border-radius: 50%;
 }
