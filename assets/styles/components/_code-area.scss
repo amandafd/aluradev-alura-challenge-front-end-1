@@ -28,9 +28,7 @@
     }
 
     code {
-        color: $lighter;
+        @include font-type(.875rem, 1.5rem);
         font-family: 'Roboto Mono', monospace;
-        font-size: 0.875rem;
-        line-height: 1.15rem;
     }
 }

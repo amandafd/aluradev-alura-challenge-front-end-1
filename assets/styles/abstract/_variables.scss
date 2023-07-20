@@ -44,16 +44,17 @@ $ff: 'Inter', sans-serif;
     gap: $gap;
 }
 
+%flex-acenter {
+    display: flex;
+    align-items: center;
+}
+
 @mixin grid-desktop($template-c) {
     display: grid;
     grid-template-columns: $template-c;
     gap: 2%;
 }
 
-%flex-acenter {
-    display: flex;
-    align-items: center;
-}
 
 @mixin border-bradius($b) {
     border: $b;

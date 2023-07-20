@@ -46,8 +46,8 @@ header {
                 }
 
                 input {
-                    display: flex;
                     @include size-w-h(100%, 3.5rem);
+                    display: flex;
                 }  
             }
         }  
