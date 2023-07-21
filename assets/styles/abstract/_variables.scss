@@ -52,7 +52,7 @@ $ff: 'Inter', sans-serif;
 @mixin grid-desktop($template-c) {
     display: grid;
     grid-template-columns: $template-c;
-    gap: 2%;
+    gap: 3%;
 }
 
 

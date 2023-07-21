@@ -10,6 +10,7 @@
 
     div {
         @include flex-column-gap(1rem);
+        width: 100%;
 
         input {
             @include size-w-h(100%, 3.5rem);

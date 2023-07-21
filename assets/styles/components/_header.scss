@@ -20,7 +20,11 @@ header {
         }
     
         .user {
-            display: none; //TEMPORARIAMENTE
+            display: none;
+            
+            p {
+                color: $lighter;
+            }
         }
     
         .fa-solid {
