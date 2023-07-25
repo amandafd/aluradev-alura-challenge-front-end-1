@@ -233,14 +233,14 @@ header .header-elements .fa-solid {
   padding: 0.75rem;
   border-radius: 1rem;
 }
-.menu .menu-editor i {
+.menu .menu-selected i {
   background-color: #5081FB;
 }
-.menu .menu-community i {
+.menu .menu-unselected i {
   background-color: rgba(80, 129, 251, 0.16);
   color: rgba(255, 255, 255, 0.4);
 }
-.menu .menu-community h5 {
+.menu .menu-unselected h5 {
   opacity: 0.5;
 }
 .menu hr {
