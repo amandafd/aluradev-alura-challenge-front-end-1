@@ -307,6 +307,8 @@ header, header .logo, header .header-elements, .menu ul li a {
   margin-top: 3.125rem;
 }
 .code-editor .code-area {
+  border: 2rem solid #6BD1FF;
+  border-radius: 0.5rem;
   gap: 1.5rem;
 }
 .code-editor button {
@@ -340,8 +342,6 @@ header, header .logo, header .header-elements, .menu ul li a {
 }
 
 .code-area {
-  border: 2rem solid #6BD1FF;
-  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   background-color: #141414;

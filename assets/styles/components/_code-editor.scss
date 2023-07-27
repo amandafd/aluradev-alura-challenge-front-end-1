@@ -5,6 +5,7 @@
     margin-top: 3.125rem;
 
     .code-area {
+        @include border-bradius(2rem solid $blue-400);
         gap: 1.5rem;
     }
 
