@@ -37,7 +37,7 @@
   <li>Estruturação das tags e conteúdos das páginas em HTML;</li>
   <li>Elaboração da estilização do conteúdo utiizando SASS por componentes de maneira responsiva;</li>
 </ol>
-<p>Apesar de as etapas estarem descritas seguindo o fluxo planejado, alguns itens sofreram modificações e melhorias de maneira não linear ao longo do processo. Como a aplicação ainda está em desenvolvimento, as informações contidas nessas sessão serão constantemente atualizadas;</p>
+<p>Apesar de as etapas estarem descritas seguindo o fluxo planejado, alguns itens sofreram modificações e melhorias de maneira não linear ao longo do processo. Por exemplo, mesmo depois do planejamento da hirarquia inicial de tags html, sua organização pode sofrer alterações durante o desenvolvimento CSS/SASS. Como a aplicação ainda está em desenvolvimento, as informações contidas nessas sessão serão constantemente atualizadas;</p>
 
 <h3 id="lessons-learned">Lições Aprendidas</h3>
 <ul>As lições aprendidas, assim como os conhecimentos reforçados, serão atualizadas no decorrer da solução:
