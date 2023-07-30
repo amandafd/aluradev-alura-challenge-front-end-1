@@ -52,7 +52,13 @@ table {
   border-spacing: 0;
 }
 
-.code-editor button, .user h5 {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -116,7 +122,13 @@ input::placeholder, select {
   line-height: 1.5rem;
 }
 
-.code-editor button, .user h5 {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -190,7 +202,13 @@ header .header-elements .fa-solid {
   }
 }
 
-.code-editor button, .user h5 {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -261,7 +279,13 @@ header .header-elements .fa-solid {
   }
 }
 
-.code-editor button, .user h5 {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -282,7 +306,13 @@ header, header .logo, header .header-elements, .menu ul li a {
 .user img {
   border-radius: 50%;
 }
-.code-editor button, .user h5 {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -323,7 +353,13 @@ header, header .logo, header .header-elements, .menu ul li a {
   }
 }
 
-.user h5, .code-editor button {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -379,7 +415,13 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-family: "Roboto Mono", monospace;
 }
 
-.user h5, .code-editor button {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -407,7 +449,13 @@ header, header .logo, header .header-elements, .menu ul li a {
   height: 5rem;
 }
 
-.user h5, .code-editor button {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -451,7 +499,13 @@ header, header .logo, header .header-elements, .menu ul li a {
   }
 }
 
-.user h5, .code-editor button {
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -479,4 +533,28 @@ header, header .logo, header .header-elements, .menu ul li a {
   margin-top: 2rem;
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.project h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.project p, .user h5, .code-editor button {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.menu h4, .your-project h4, .personalization h4 {
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.3rem;
+}
+
+header, header .logo, header .header-elements, .menu ul li a {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

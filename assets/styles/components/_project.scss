@@ -1,0 +1,11 @@
+@import '../abstract/variables';
+
+.project {
+    h2 {
+        @extend %title;
+    }
+
+    p {
+        @extend %body;
+    }
+}
