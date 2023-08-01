@@ -557,4 +557,9 @@ header, header .logo, header .header-elements, .menu ul li a {
 header, header .logo, header .header-elements, .menu ul li a {
   display: flex;
   align-items: center;
+}
+
+.project .code-area {
+  border: 1.5rem solid #6BD1FF;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=style.css.map */

@@ -8,4 +8,8 @@
     p {
         @extend %body;
     }
+
+    .code-area{
+        @include border-bradius(1.5rem solid $blue-400);
+    }
 }
