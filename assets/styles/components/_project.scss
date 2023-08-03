@@ -12,4 +12,10 @@
     .code-area{
         @include border-bradius(1.5rem solid $blue-400);
     }
+
+    .project-info {
+        .comment-like {
+            display: flex;
+        }
+    }
 }

@@ -562,4 +562,7 @@ header, header .logo, header .header-elements, .menu ul li a {
 .project .code-area {
   border: 1.5rem solid #6BD1FF;
   border-radius: 0.5rem;
+}
+.project .project-info .comment-like {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
