@@ -1,7 +1,7 @@
 <h1 align="center">AluraDev - Challenge Front-end 1</h1>
 
 <p align="center">
-  <a href=""><img src="https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-jul%202023-blue" align="center" alt="Badge - última atualização em julho  2023" /></a>
+  <a href=""><img src="https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-jul%202023-blue" align="center" alt="Badge - última atualização em agosto  2023" /></a><--!trocar badge-->
   <a href=""><img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellowgreen" align="center" alt="Badge status: em desenvolvimento" /></a>
   <a href=""><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" align="center" alt="Badge - HTML" /></a>
   <a href=""><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" align="center" alt="Badge - CSS" /></a>
