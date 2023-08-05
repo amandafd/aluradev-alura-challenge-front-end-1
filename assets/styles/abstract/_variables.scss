@@ -13,22 +13,23 @@ $lighter: #fff;
 
 $ff: 'Inter', sans-serif;
 
-@mixin font-type($fs, $lh) {
+@mixin font-type($fs, $lh, $fw) {
     color: $lighter;
     font-size: $fs;
     line-height: $lh;
+    font-weight: $fw;
 }
 
 %title {
-    @include font-type(1.3rem, 2rem)
+    @include font-type(1.3rem, 2rem, 700);
 }
 
 %body {
-    @include font-type(1rem, 1.5rem)
+    @include font-type(1rem, 1.5rem, 400);
 }
 
 %sidebar-title {
-    @include font-type(.75rem, 1.125rem);
+    @include font-type(.75rem, 1.125rem, 400);
     letter-spacing: .30rem;
 }
 
