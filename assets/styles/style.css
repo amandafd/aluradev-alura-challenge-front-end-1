@@ -96,6 +96,7 @@ body {
 body main {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 @media (min-width: 900px) {
   body main {
@@ -433,6 +434,11 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-weight: inherit;
   font-family: "Roboto Mono", monospace;
 }
+@media (max-width: 340px) {
+  .code-area code {
+    word-break: break-word;
+  }
+}
 
 .project .project-info h2 {
   color: #fff;
@@ -600,7 +606,7 @@ header, header .logo, header .header-elements, .menu ul li a {
   padding: 1.5rem;
   gap: 0.5rem;
 }
-.project .project-info p {
+.project .project-info .project-description {
   opacity: 0.8;
 }
 .project .project-info .project-user-info {

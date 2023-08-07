@@ -29,5 +29,9 @@
     code {
         @include font-type(.875rem, 1.5rem, inherit);
         font-family: 'Roboto Mono', monospace;
+        @media (max-width: 340px) {
+            word-break: break-word;
+        }
+        
     }
 }

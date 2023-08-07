@@ -1,10 +1,6 @@
 @import '../abstract/variables';
 
 .project {
-    
-
-    
-
     .code-area{
         @include border-bradius(1.5rem solid $blue-400);
     }
@@ -16,6 +12,9 @@
 
         p {
             @extend %body;
+        }
+
+        .project-description {
             opacity: 0.8;
         }
 
