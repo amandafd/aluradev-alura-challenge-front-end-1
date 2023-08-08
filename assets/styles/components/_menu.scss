@@ -3,7 +3,7 @@
 .menu {
     background-color: $blue-gray;
     align-self: flex-end;
-    width: 15.875rem;
+    width: 12rem;
     padding: 1.5rem;
     margin-top: 1.5rem;
     border-radius: 0.5rem;
@@ -53,6 +53,10 @@
     hr {
         margin-top: 1.5rem;
         opacity: 0.08;
+    }
+
+    @media (min-width: 330px) {
+        width: 14.4rem;
     }
 
     @media (min-width: 900px) {
