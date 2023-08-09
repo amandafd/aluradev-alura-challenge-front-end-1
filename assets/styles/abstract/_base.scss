@@ -17,13 +17,20 @@ body {
         display: flex;
         flex-direction: column;
         gap: 2rem;
+    }
 
+    .main-editor {
         @media (min-width: 900px) {
             @include grid-desktop(21% 52% 21%);
             padding-top: 2.5rem;
         } 
+    }
 
-        
+    .main-comunidade {
+        @media (min-width: 900px) {
+            @include grid-desktop(21% auto);
+            padding-top: 2.5rem;
+        }
     }
 }
 

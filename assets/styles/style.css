@@ -99,9 +99,17 @@ body main {
   gap: 2rem;
 }
 @media (min-width: 900px) {
-  body main {
+  body .main-editor {
     display: grid;
     grid-template-columns: 21% 52% 21%;
+    gap: 3%;
+    padding-top: 2.5rem;
+  }
+}
+@media (min-width: 900px) {
+  body .main-comunidade {
+    display: grid;
+    grid-template-columns: 21% auto;
     gap: 3%;
     padding-top: 2.5rem;
   }
