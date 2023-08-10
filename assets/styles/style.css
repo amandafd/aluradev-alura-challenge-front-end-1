@@ -52,14 +52,14 @@ table {
   border-spacing: 0;
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -134,14 +134,14 @@ input::placeholder, select {
   line-height: 1.5rem;
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -217,14 +217,14 @@ header .header-elements .fa-solid {
   }
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -302,14 +302,14 @@ header .header-elements .fa-solid {
   }
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -332,14 +332,14 @@ header, header .logo, header .header-elements, .menu ul li a {
 .user img {
   border-radius: 50%;
 }
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -382,14 +382,14 @@ header, header .logo, header .header-elements, .menu ul li a {
   }
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -453,14 +453,14 @@ header, header .logo, header .header-elements, .menu ul li a {
   }
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -490,14 +490,14 @@ header, header .logo, header .header-elements, .menu ul li a {
   height: 5rem;
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -543,14 +543,14 @@ header, header .logo, header .header-elements, .menu ul li a {
   }
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -582,14 +582,14 @@ header, header .logo, header .header-elements, .menu ul li a {
   line-height: 1.5rem;
 }
 
-.project .project-info h2 {
+.projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -609,30 +609,37 @@ header, header .logo, header .header-elements, .menu ul li a {
   align-items: center;
 }
 
-.project .code-area {
+.projects .project .code-area {
   border: 1.5rem solid #6BD1FF;
   border-radius: 0.5rem;
 }
-.project .project-info {
+.projects .project .project-info {
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
   gap: 0.5rem;
 }
-.project .project-info .project-description {
+.projects .project .project-info .project-description {
   opacity: 0.8;
 }
-.project .project-info .project-user-info {
+.projects .project .project-info .project-user-info {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
 }
-.project .project-info .project-user-info .comment-like {
+.projects .project .project-info .project-user-info .comment-like {
   display: flex;
   gap: 1rem;
 }
-.project .project-info .project-user-info .comment-like div {
+.projects .project .project-info .project-user-info .comment-like div {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+@media (min-width: 900px) {
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
