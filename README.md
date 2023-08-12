@@ -27,7 +27,7 @@
 <h2 id="visao-geral">Visaõ Geral</h2>
 
 <h3 id="o-desafio">O Desafio</h3>
-<p>Solução do primeiro challenge Front-end proposto pela Alura. O projeto consiste em uma plataforma(AluraDev) de criação para um produtor de conteúdo de tecnologia. A plataforma deve ser responsiva e permitir que os trechos de código sejam postado com uma estética atrativa independente da linguagem, também deve permitir que funcionalidades sejam adicionadas.</p> 
+<p>Solução do primeiro challenge Front-end proposto pela Alura. O projeto consiste em uma plataforma(AluraDev) de criação para um produtor de conteúdo de tecnologia. A plataforma deve ser responsiva e permitir que os trechos de código sejam postado com uma estética atrativa independente da linguagem, também deve permitir que funcionalidades sejam adicionadas. A ideia ao desenvolver esse projeto é continuar praticando, integrando e melhorando minhas habilidades em front-end.</p> 
 
 <h2 id="o-processo">O Processo</h2>
 
