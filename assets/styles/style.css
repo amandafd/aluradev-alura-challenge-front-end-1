@@ -59,7 +59,7 @@ table {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5, input {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -116,19 +116,33 @@ body main {
 }
 
 input, select {
-  background: rgba(255, 255, 255, 0.16);
-  padding: 0.875rem;
   border: none;
   border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.16);
+  padding: 0.875rem;
+}
+input:hover, select:hover {
+  background: 255, 255, 255, 0.24;
+}
+input:focus, select:focus {
+  outline: transparent;
 }
 
+input:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
 input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6392156863);
   font-size: 1rem;
   line-height: 1.5rem;
 }
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6392156863);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 
-input::placeholder, select {
+select {
   color: rgba(255, 255, 255, 0.6392156863);
   font-size: 1rem;
   line-height: 1.5rem;
@@ -141,7 +155,7 @@ input::placeholder, select {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5, input {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -224,7 +238,7 @@ header .header-elements .fa-solid {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5, input {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -309,7 +323,7 @@ header .header-elements .fa-solid {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, .user h5, input {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -339,7 +353,7 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .code-editor button, .user h5 {
+.projects .project .project-info p, .code-editor button, input, .user h5 {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -389,7 +403,7 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, input, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -460,7 +474,7 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, input, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -497,7 +511,7 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, input, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -550,7 +564,7 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, input, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -589,7 +603,7 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-weight: 700;
 }
 
-.projects .project .project-info p, .user h5, .code-editor button {
+.projects .project .project-info p, input, .user h5, .code-editor button {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;

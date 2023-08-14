@@ -35,13 +35,36 @@ body {
 }
 
 input, select {
+    @include border-bradius(none);
     background: rgba(255, 255, 255, 0.16);
     padding: 0.875rem;
-    @include border-bradius(none);
+
+    &:hover {
+        background: (255, 255, 255, 0.24);
+    }
+
+    &:focus{
+        outline: transparent;
+    }
 }
 
-input::placeholder, select {
+input {
+    @extend %body; 
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.24);     
+    }
+
+    &::placeholder {
+        color: #ffffffa3;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+select {
     color: #ffffffa3;
     font-size: 1rem;
     line-height: 1.5rem;
 }
+
