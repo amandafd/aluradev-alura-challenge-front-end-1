@@ -9,4 +9,12 @@
     margin-top: 2rem;
     font-size: 1rem;
     line-height: 1.5rem;
+    
+    &:hover {
+        background-color: $blue-200;
+    }
+    
+    &:focus {
+        background-color: $blue-100;
+    }
 }
