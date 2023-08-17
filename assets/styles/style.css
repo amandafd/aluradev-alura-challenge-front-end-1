@@ -595,6 +595,12 @@ header, header .logo, header .header-elements, .menu ul li a {
   font-size: 1rem;
   line-height: 1.5rem;
 }
+.btn-save:hover {
+  background-color: #7BA4FC;
+}
+.btn-save:focus {
+  background-color: #96B9FD;
+}
 
 .projects .project .project-info h2 {
   color: #fff;
