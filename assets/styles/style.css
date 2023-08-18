@@ -265,6 +265,8 @@ header .header-elements .fa-solid {
   padding: 1.5rem;
   margin-top: 1.5rem;
   border-radius: 0.5rem;
+  /*TODO: 1 - Find out how to keep an component selected or not with css, not just using style. This affects only the visual part or (...) too ? 
+  2 - Find out what style should apply to selected, hover and focus elements*/
 }
 .menu h4 {
   display: none;
@@ -285,10 +287,16 @@ header .header-elements .fa-solid {
 }
 .menu .menu-selected i {
   background-color: #5081FB;
+  /*&:hover {
+
+  }*/
 }
 .menu .menu-unselected i {
   background-color: rgba(80, 129, 251, 0.16);
   color: rgba(255, 255, 255, 0.4);
+  /*&:hover {
+
+  }*/
 }
 .menu .menu-unselected h5 {
   opacity: 0.5;

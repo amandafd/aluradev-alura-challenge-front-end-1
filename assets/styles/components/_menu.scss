@@ -35,14 +35,25 @@
     .menu-selected {
         i {
             background-color: $blue-300;
+
+            /*&:hover {
+
+            }*/
         }
         
     }
 
+    /*TODO: 1 - Find out how to keep an component selected or not with css, not just using style. This affects only the visual part or (...) too ? 
+    2 - Find out what style should apply to selected, hover and focus elements*/
+
     .menu-unselected {
         i {
             background-color: rgba(80, 129, 251, 0.16);
-            color: rgba(255, 255, 255, 0.4)
+            color: rgba(255, 255, 255, 0.4);
+
+            /*&:hover {
+
+            }*/
         }
 
         h5 {
