@@ -13,6 +13,8 @@ $lighter: #fff;
 
 $ff: 'Inter', sans-serif;
 
+/*TODO: CREATE BUTTONS PATTERNS*/
+
 @mixin font-type($fs, $lh, $fw) {
     color: $lighter;
     font-size: $fs;
