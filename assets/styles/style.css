@@ -52,6 +52,10 @@ table {
   border-spacing: 0;
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -148,6 +152,10 @@ select {
   line-height: 1.5rem;
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -231,6 +239,10 @@ header .header-elements .fa-solid {
   }
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -265,7 +277,7 @@ header .header-elements .fa-solid {
   padding: 1.5rem;
   margin-top: 1.5rem;
   border-radius: 0.5rem;
-  /*TODO: 1 - Find out how to keep an component selected or not with css, not just using style. This affects only the visual part or (...) too ? 
+  /*TODO: 1 - Find out how to keep an component selected/pressed or not with css, not just using style. This affects only the visual part or (...) too ? 
   2 - Find out what style should apply to selected, hover and focus elements*/
 }
 .menu h4 {
@@ -289,14 +301,18 @@ header .header-elements .fa-solid {
   background-color: #5081FB;
   /*&:hover {
 
-  }*/
+  }
+
+  &:focus*/
 }
 .menu .menu-unselected i {
   background-color: rgba(80, 129, 251, 0.16);
   color: rgba(255, 255, 255, 0.4);
   /*&:hover {
 
-  }*/
+  }
+
+  &:focus*/
 }
 .menu .menu-unselected h5 {
   opacity: 0.5;
@@ -324,6 +340,10 @@ header .header-elements .fa-solid {
   }
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -354,6 +374,10 @@ header, header .logo, header .header-elements, .menu ul li a {
 .user img {
   border-radius: 50%;
 }
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -404,6 +428,10 @@ header, header .logo, header .header-elements, .menu ul li a {
   }
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -475,6 +503,10 @@ header, header .logo, header .header-elements, .menu ul li a {
   }
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -512,6 +544,10 @@ header, header .logo, header .header-elements, .menu ul li a {
   height: 5rem;
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -565,6 +601,10 @@ header, header .logo, header .header-elements, .menu ul li a {
   }
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
@@ -610,6 +650,10 @@ header, header .logo, header .header-elements, .menu ul li a {
   background-color: #96B9FD;
 }
 
+/*TODO: CREATE BUTTONS PATTERNS
+@btn-highlight
+@btn-save
+@btn-menu*/
 .projects .project .project-info h2 {
   color: #fff;
   font-size: 1.3rem;
