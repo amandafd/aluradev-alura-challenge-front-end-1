@@ -1,6 +1,8 @@
 @import '../abstract/variables';
 
-.menu {
+.menu { 
+    /*TODO: 1. add user image 2. hide/show menu
+    3. hover/focus styles*/
     background-color: $blue-gray;
     align-self: flex-end;
     width: 12rem;
@@ -44,9 +46,6 @@
         }
         
     }
-
-    /*TODO: 1 - Find out how to keep an component selected/pressed or not with css, not just using style. This affects only the visual part or (...) too ? 
-    2 - Find out what style should apply to selected, hover and focus elements*/
 
     .menu-unselected {
         i {
