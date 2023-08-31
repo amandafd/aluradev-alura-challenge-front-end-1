@@ -2,7 +2,7 @@
 
 .menu { 
     /*TODO: 1. add user image 2. hide/show menu
-    3. hover/focus styles*/
+    3. normal/hover/pressed styles*/
     background-color: $blue-gray;
     align-self: flex-end;
     width: 12rem;
@@ -33,6 +33,16 @@
         }
         
     }
+    /*.item-menu {
+    
+    }
+    
+    .item-menu-pressed {
+        
+    }
+    .item-menu-normal {
+
+    }*/
 
     .menu-selected {
         i {
