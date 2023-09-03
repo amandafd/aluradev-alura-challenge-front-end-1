@@ -34,14 +34,14 @@
         
     }
 
-    .menu-selected {
+    .item-pressed {
         i {
             background-color: $blue-300;
         }
         
     }
 
-    .menu-unselected {
+    .item-normal {
         i {
             background-color: rgba(80, 129, 251, 0.16);
             color: rgba(255, 255, 255, 0.4);
@@ -73,27 +73,5 @@
             display: none;
         }
     }
-}
-
-    /*.item-menu {
-        &:hover {
-            background: rgba(80, 129, 251, 0.64);
-        }
-    }
-    
-    .item-menu-pressed {
-        i {
-            background-color: $blue-300;
-        }
-    }
-    .item-menu-normal {
-        i {
-        background-color: rgba(80, 129, 251, 0.16);
-        color: rgba(255, 255, 255, 0.4);
-
-        
-    }*/
-
-    
-
+}   
 
